@@ -11,4 +11,23 @@ body {
         bottom: 80px;
         left: 35%;
     }
+    .blocks-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .item {
+            width: 200px;
+            height: 50px;
+            border: 1px solid black;
+        }
+        .item:nth-child(3n + 1){
+            background-color: #ff4049;
+        }
+        .item:nth-child(3n + 2){
+            background-color: #70ff75;
+        }
+        .item:nth-child(3n + 3){
+            background-color: #fff870;
+        }
+    }
 }

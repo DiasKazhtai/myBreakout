@@ -30,4 +30,13 @@ body {
             background-color: #fff870;
         }
     }
+    .ball {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: white;
+        position: fixed;
+        bottom: 100px;
+        left: 45%;
+    }
 }
